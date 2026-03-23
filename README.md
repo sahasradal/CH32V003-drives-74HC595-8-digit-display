@@ -7,7 +7,7 @@ decimal point position needs to be loaded in DP_STATE (SRAM), 0 or some combinat
 . Uses 3 look up table . for fonts , address of display and wiring positions of digt on actual board.
 The display address is not leniar as 0,1,2,3,4,5,6,7. current - sign is fixed on LHS corner. floating minus yet to be implemented.
 
-
+74HC595_DISPLAY_ver1.S has the display refresh at 100hz with timer2 interrupt. this frees the main loop for other activites.
 
 
 
